@@ -9,12 +9,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import testRunner.Driver;
 
-public class AddRemove extends Driver{
+
+public class AddRemove extends Driver {
+
 
 
     @When("I select AddRemove")
     public void iSelectAddRemove() {
-        driver = new ChromeDriver();
+
+
         driver.get("https://the-internet.herokuapp.com/");
         driver.findElement(By.cssSelector("#content > ul > li:nth-child(2) > a")).click();
     }

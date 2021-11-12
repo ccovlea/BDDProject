@@ -4,14 +4,15 @@ import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import testRunner.Driver;
 
 
-public class ABTesting {
-    WebDriver driver;
+public class ABTesting extends Driver {
+
 
     @Given("I open browser")
     public void i_open_browser() {
-        System.setProperty("webdriver.chrome.driver","D:\\IT\\SDA\\Programe\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\IT\\SDA\\Programe\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
 
 

@@ -25,6 +25,7 @@ public class DElements extends Driver {
         driver.findElement(By.cssSelector("#content > div > ul > li:nth-child(4) > a")).click();
         driver.navigate().back();
         driver.navigate().back();
+
     }
 
 }

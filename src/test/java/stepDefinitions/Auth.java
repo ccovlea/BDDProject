@@ -24,6 +24,7 @@ public class Auth extends Driver {
     public void i_go_back_on_main_page() {
         driver.navigate().back();
         driver.navigate().back();
+        driver.quit();
 
     }
 

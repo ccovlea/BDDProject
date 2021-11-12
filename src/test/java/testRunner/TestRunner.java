@@ -15,7 +15,8 @@ import org.junit.runner.RunWith;
 //                "Features/Auth.feature",
 //                "Features/Challenging_DOM.feature",
 //                "Features/Checkboxes.feature",
-                "Features/Context.feature"
+//                "Features/Context.feature"
+                "Features/D_Element.feature"
         },
         plugin = {
                 "pretty",

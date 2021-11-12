@@ -1,10 +1,8 @@
 package stepDefinitions;
 
-import org.openqa.selenium.*;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import testRunner.Driver;
-
 
 
 public class Auth extends Driver {

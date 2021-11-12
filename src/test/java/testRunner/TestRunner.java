@@ -14,7 +14,9 @@ import org.junit.runner.RunWith;
                   "Features/AddRemove.feature"
         },
         plugin = {
-                "pretty"
+                "pretty",
+                "json:target/report.json",
+                "html:target/report.html"
         },
         glue = "stepDefinitions"
 

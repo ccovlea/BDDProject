@@ -12,7 +12,10 @@ import org.junit.runner.RunWith;
         features = {
 //                "Features/ABTesting.feature",
 //                  "Features/AddRemove.feature",
-                "Features/Auth.feature"
+//                "Features/Auth.feature",
+//                "Features/Challenging_DOM.feature",
+//                "Features/Checkboxes.feature",
+                "Features/Context.feature"
         },
         plugin = {
                 "pretty",

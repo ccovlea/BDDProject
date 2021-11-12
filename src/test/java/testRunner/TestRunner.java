@@ -11,12 +11,13 @@ import org.junit.runner.RunWith;
 
         features = {
 //                "Features/ABTesting.feature",
-                  "Features/AddRemove.feature"
+//                  "Features/AddRemove.feature",
+                "Features/Auth.feature"
         },
         plugin = {
                 "pretty",
-                "json:target/report.json",
-                "html:target/report.html"
+//                "json:target/report.json",
+//                "html:target/report.html"
         },
         glue = "stepDefinitions"
 

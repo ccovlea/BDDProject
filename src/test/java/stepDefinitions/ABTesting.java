@@ -11,7 +11,7 @@ public class ABTesting extends Driver {
 
     @Given("I open browser")
     public void i_open_browser() {
-        System.setProperty("webdriver.chrome.driver", "D:\\IT\\SDA\\Programe\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Chrome\\chromedriver.exe");
         driver = new ChromeDriver();
 
 
